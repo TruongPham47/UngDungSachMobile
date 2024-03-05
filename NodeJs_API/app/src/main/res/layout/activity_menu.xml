@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Model.menu">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#0037FF"
+                android:paddingTop="15dp"
+                android:text="Quản lý"
+                android:textAlignment="center"
+                android:textColor="#FF0077"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                tools:ignore="TextContrastCheck">
+
+            </TextView>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnKH"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/kh"
+                    tools:ignore="SpeakableTextPresentCheck"></ImageButton>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Khách Hàng"
+                    android:textAlignment="center"
+                    android:textSize="35dp"
+                    android:textColor="#2FFF00"
+                    android:textStyle="bold"
+                    android:paddingTop="15dp"
+                    >
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnNV"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/kh"
+                    tools:ignore="SpeakableTextPresentCheck"></ImageButton>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Nhân viên"
+                    android:textAlignment="center"
+                    android:textSize="35dp"
+                    android:textColor="#2FFF00"
+                    android:textStyle="bold"
+                    android:paddingTop="15dp"
+                    >
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnSP"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/kh"
+                    tools:ignore="SpeakableTextPresentCheck"></ImageButton>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Sản Phẩm"
+                    android:textAlignment="center"
+                    android:textSize="35dp"
+                    android:textColor="#2FFF00"
+                    android:textStyle="bold"
+                    android:paddingTop="15dp"
+                    >
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnWH"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/kh"
+                    tools:ignore="SpeakableTextPresentCheck"></ImageButton>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Kho Hàng"
+                    android:textAlignment="center"
+                    android:textSize="35dp"
+                    android:textColor="#2FFF00"
+                    android:textStyle="bold"
+                    android:paddingTop="15dp"
+                    >
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnDH"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/kh"
+                    tools:ignore="SpeakableTextPresentCheck"></ImageButton>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Đơn Hàng"
+                    android:textAlignment="center"
+                    android:textSize="35dp"
+                    android:textColor="#2FFF00"
+                    android:textStyle="bold"
+                    android:paddingTop="15dp"
+                    >
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnPN"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/kh"
+                    tools:ignore="SpeakableTextPresentCheck"></ImageButton>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Phiếu Nhập"
+                    android:textAlignment="center"
+                    android:textSize="35dp"
+                    android:textColor="#2FFF00"
+                    android:textStyle="bold"
+                    android:paddingTop="15dp"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/btnPX"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/kh"
+                    tools:ignore="SpeakableTextPresentCheck"></ImageButton>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Phiếu Xuất"
+                    android:textAlignment="center"
+                    android:textSize="35dp"
+                    android:textColor="#2FFF00"
+                    android:textStyle="bold"
+                    android:paddingTop="15dp"
+                    >
+
+                </TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
